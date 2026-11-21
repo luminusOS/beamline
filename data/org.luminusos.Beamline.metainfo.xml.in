@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>org.luminusos.Beamline</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>LGPL-3.0-only</project_license>
+  <name>Beamline</name>
+  <summary>Cast your screen to a nearby display</summary>
+  <developer id="org.luminusos">
+    <name>LuminusOS</name>
+  </developer>
+  <description>
+    <p>Beamline is a screen casting application in development for GNOME. This development build does not discover devices or cast a screen yet.</p>
+  </description>
+  <launchable type="desktop-id">org.luminusos.Beamline.desktop</launchable>
+  <url type="homepage">https://github.com/luminusOS/beamline</url>
+  <url type="bugtracker">https://github.com/luminusOS/beamline/issues</url>
+  <content_rating type="oars-1.1" />
+</component>

@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Beamline
+Comment=Cast your screen to a nearby display
+Exec=beamline
+Icon=org.luminusos.Beamline
+Terminal=false
+Type=Application
+Categories=GTK;GNOME;AudioVideo;
+StartupNotify=true

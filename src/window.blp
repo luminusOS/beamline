@@ -1,0 +1,19 @@
+using Gtk 4.0;
+using Adw 1;
+
+template $BeamlineWindow: Adw.ApplicationWindow {
+  title: _("Cast Screen");
+  default-width: 640;
+  default-height: 480;
+
+  content: Adw.ToolbarView {
+    [top]
+    Adw.HeaderBar {}
+
+    content: Adw.StatusPage status_page {
+      icon-name: "video-display-symbolic";
+      title: _("Screen Casting Unavailable");
+      description: _("Device discovery and screen casting are not available in this development build.");
+    };
+  };
+}
